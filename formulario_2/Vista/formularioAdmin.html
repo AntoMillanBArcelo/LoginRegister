@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <title>Formulario web</title>
+     </head>
+     <body>
+<form name="input" action="./../Controlador/controladorRegistro.php" method="post">
+     <h2>Administrador</h2>
+     <label>Nombre</label>
+     <br>
+     <input type="text" name="nombre" />
+     <br />
+     <label>Contraseña</label>
+     <br>
+     <input type="password" name="pass">
+     <p><strong>Rol</strong></p>
+     <label>Administrador</label>
+     <input type="checkbox" name="tipo" value="Admin"/>
+     <label>Plebeyo</label>
+     <input type="checkbox" name="tipo" value="Plebeyo"/> 
+     <br/>
+     <br/>
+     <input type="submit" value="Registrar"/>
+</form>
+     </body>
+</html>
